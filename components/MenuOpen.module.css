@@ -1,0 +1,17 @@
+.navlist ul li {
+    list-style: none;
+    margin: 10px 15px;
+}
+
+
+
+@media (min-width: 768px) {
+    .navlist ul {
+        display: flex;
+        justify-content: center;
+    }
+    .linkCategory:hover {
+        border-bottom: 1px solid #000;
+    }
+
+}
