@@ -10,19 +10,19 @@ function MenuOpen({handleToggle}) {
          <nav className={styles.navlist}>
             <ul>
                 <li className={styles.linkCategory}>
-                    <MenuLink urlLink={'#'} navName={'Product1'}/>
+                    <MenuLink urlLink={'#'} navName={'Category1'}/>
                 </li>
                 <li className={styles.linkCategory}>
-                    <MenuLink urlLink={'#'} navName={'Product2'}/>
+                    <MenuLink urlLink={'#'} navName={'Category2'}/>
                 </li>
                 <li className={styles.linkCategory}>
-                    <MenuLink urlLink={'#'} navName={'Product3'}/>
+                    <MenuLink urlLink={'#'} navName={'Category3'}/>
                 </li>
                 <li className={styles.linkCategory}>
-                    <MenuLink urlLink={'#'} navName={'Product4'}/>
+                    <MenuLink urlLink={'#'} navName={'Category4'}/>
                 </li>
                 <li className={styles.linkCategory}>
-                    <MenuLink urlLink={'#'} navName={'Product5'}/>
+                    <MenuLink urlLink={'#'} navName={'Category5'}/>
                 </li>
             </ul>
         </nav>    
